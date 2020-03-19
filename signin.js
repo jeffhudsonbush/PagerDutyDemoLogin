@@ -74,7 +74,7 @@ $('#signin-button').on('click', function() {
         "routing_key": routing_key,
         "payload": {
             "summary": `Attempted malicious logins for username ${email}`,
-            "source": "Splunk",
+            "source": "Sumo Logic",
             "severity": "critical",
             "custom_details": {
                 "From": myIP,
